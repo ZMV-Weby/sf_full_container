@@ -1,0 +1,27 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+.wp-block-sfp-full-container-block{position: relative;}
+
+.sfc-absolute{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.sfc-bg-image div{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.sfc-separator{
+	border-top: 1px solid lightgray;
+	padding-top: 10px;
+}
+
+.sfc-aligment .components-toolbar button{width:100%;display:inline-block;}
